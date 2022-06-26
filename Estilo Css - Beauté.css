@@ -1,0 +1,152 @@
+/*Limpar formatações padrões*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family:"Trebuchet MS";
+}
+
+/***Layout***/
+
+#area-cabecalho{
+	background-color: black;
+	padding: 15px;
+	margin-bottom: 5px;
+	text-align: center;
+	
+}
+#area-logo, #area-menu{
+	padding: 10px;
+}
+#mostroario{
+	background: black;
+	justify-content: space-between;
+	display: flex;
+	height: 400px;
+	margin-left: 1px;
+	
+}
+
+#area-principal{
+	width: 1800px;
+	margin: 0px auto;
+	padding: 15px;
+}
+#pincel{
+	animation-name: pinceis;
+	animation: pinceis 3s infinite alternate;
+	margin-left: 50px;
+	width: 500px;
+	float: left;
+}
+#area-postagens{
+	margin-left: 60px;
+	background:#FAFAFA;
+	width: 700px;
+	float: left;
+
+
+}
+#area-lateral{
+
+	width: 400px;
+	float: right;
+}
+.postagem{
+	color: #3A2F0B;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.conteudo-lateral{
+	border-radius: 10px;
+	background:  #FBEFF2;
+	padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}	
+#rodape{
+	clear: both;
+	color: white;
+	background: black;
+	padding: 15px;
+	text-align: center;
+}
+.postagem-lateral{
+	color: black;
+	font-size: 1em;
+	font-style: oblique;
+	padding: 5px;
+	
+}
+/****Formatações menu***/
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+
+	color:#3B0B17;
+	text-transform: uppercase;
+	font-style: oblique;
+}
+a:hover{
+	
+	text-decoration: underline;
+}
+#area-cabecalho a:link, #area-cabecalho a:visited{
+	color: #F5A9D0;
+	padding: 8px 12px
+
+}
+#area-cabecalho a:hover{
+	color: black;
+	background: #F8E0E6;
+	text-decoration: none;
+}
+#foto{
+	border-radius: 100px;
+}
+.autor{
+	color: #3B0B17;
+	font-size: 0.8em;
+	border-bottom: 1px solid #610B0B ;
+	padding-bottom: 10px;
+	margin: 10px;
+	display: block;
+
+}
+.marca{
+
+	width: 180px;
+	margin-bottom: 10px ;
+	
+	
+}
+#contatos1{
+	padding: 4px;
+}
+/**Formatações em geral***/
+h1{
+	color: white;
+	font-size: 3em;
+	font-family: Georgia, serif;
+}
+h2{
+	background: #FBEFF5;
+	color:#2A0A12;
+
+}
+h3{
+	color: #3B0B17;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+}
+p{
+	padding-top: 10px;
+}
+
